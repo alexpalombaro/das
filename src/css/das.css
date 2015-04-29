@@ -1,0 +1,47 @@
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace button "component.button.*";
+
+/*
+@font-face {
+    src: url("../../lib/font/Roboto-Regular.ttf");
+    fontFamily: Roboto-Regular;
+    embedAsCFF: true;
+}
+
+@font-face {
+    src: url("../../lib/font/Roboto-Bold.ttf");
+    fontFamily: Roboto-Bold;
+    embedAsCFF: true;
+}
+*/
+
+/* Flex Globals */
+
+s|ViewNavigatorApplication {
+    fontSize: 30px;
+}
+
+
+s|Button {
+    fontSize: 40px;
+}
+
+s|Label {
+    fontFamily: RobotoBold;
+}
+
+/* Components */
+
+button|AnswerButton {
+    skinClass: ClassReference("skin.button.AnswerButtonSkin");
+}
+
+/* Classes */
+
+.large {
+    fontSize: 40px;
+}
+
+.xlarge {
+    fontSize: 60px;
+}

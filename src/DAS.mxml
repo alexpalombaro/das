@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:ViewNavigatorApplication xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark"
+                            firstView="view.MenuView" applicationDPI="240"
+                            applicationComplete="_applicationCompleteHandler(event)">
+
+    <fx:Style source="css/das.css"/>
+
+    <fx:Script>
+        <![CDATA[
+        import control.Engine;
+
+        import mx.events.FlexEvent;
+
+        public var engine:Engine = Engine.getInstance();
+
+        protected function _applicationCompleteHandler(event:FlexEvent):void {
+            engine.control.commence();
+        }
+        ]]>
+    </fx:Script>
+
+</s:ViewNavigatorApplication>

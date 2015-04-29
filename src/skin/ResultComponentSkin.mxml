@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Skin xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark">
+
+    <fx:Metadata>
+        [HostComponent("component.ResultComponent")]
+    </fx:Metadata>
+
+    <s:Group verticalCenter="0" horizontalCenter="0" width="300" height="300">
+
+        <s:Ellipse width="100%" height="100%">
+            <s:fill>
+                <s:SolidColor color="0x436fb5"/>
+            </s:fill>
+        </s:Ellipse>
+
+        <s:Label id="outputText" verticalCenter="0" horizontalCenter="0" color="white" fontSize="80" />
+
+    </s:Group>
+
+</s:Skin>
